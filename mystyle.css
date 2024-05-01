@@ -1,10 +1,16 @@
-*{
-   text-align: center;
-    margin: 20px 0;
-    /* margin: auto;
-    width: 70%;
-    border: 0px solid green;
-    padding: 10px; */
+img {
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 10px;
+    float:right;
+}
+body{
+    background-image: url("joker.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    /* margin-right: 200px; */
+    background-attachment: fixed;
 }
 table{
     border-collapse: collapse;
@@ -14,13 +20,26 @@ table{
     border: 0px solid green;
     padding: 10px;
 }
-th,td{
+th.th-body,td.td-body{
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
 ul.demo {
-    /* display: inline-block; */
+    text-align: center;
+    display: inline-block; 
     text-align: left;
     list-style-type: none;
+}
+.top-page {
+   /* padding: 20px; */
+   background-color: rgb(175, 241, 241);
+   
+}
+hr {
+    /* background-color: white; */
+    border-style: dotted;
+    /* height: 2px; */
+    width: 30%;
   }
+  
