@@ -8,50 +8,27 @@
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-    <div class="top-page">
-        <table class="tb-pro" >
-            <tr>
-                <td><img src="profile.jpg" alt="nature" style="width:250px ;height: 250px;" ></td>
-                <td><h1>พุฒิสิทธิ์  เพื่อตระกูล (หนุ่ม)</h1> 
-                    <br>
-                    <h3>Desktop Support Unit <br> Gosoft (Thailand) Co.,Ltd.</h3>
-                    <h3><a href="https://www.gosoft.co.th/" target="_blank">ไปยังเว็บไซต์ที่ทำงาน</a></h3>
-                    <h3><a href="contact.html">Contact</a></h3>
-                </td>
-            </tr>
-
-        </table>
+   <div class="quiz-container">
+        <h1></h1>
+        <p id="question">ทีม AIM อยู่ภายใต้ service ใหน</p>
+        <button class="button" onclick="checkAnswer('a')">A) IT Core Network</button>
+        <button class="button" onclick="checkAnswer('b')">B) Security Network</button>
+        <button class="button" onclick="checkAnswer('c')">C) Desktop Service</button>
+        <button class="button" onclick="checkAnswer('d')">D) Project Managemeent</button>
+        <p id="result"></p>
     </div>
-    <hr> 
-    <center>
-    <h3>ประสบการณ์การทำงาน</h3>
-    <ul class="demo">
-        <li>2017 - 2019 นักศึกษามหาลัย</li>
-        <li>2019 - 2022 ครูประจำสาขา IT SBAC NON</li>
-        <li>2023 - present Gosoft</li>
-    </ul>
-    </center>
-    <!-- ปรับรูปแบบ list ให้เป็น table -->
-    
-    <table class = "tb-ex">
-            <tr>
-                <th class="th-body">Year</th>
-                <th class="td-body">ประวัติ</th>
-            </tr>
-            <tr>
-                <td class="td-body">2017 - 2019</td>
-                <td class="td-body">นักศึกษามหาลัย</td>
-            </tr>
-            <tr>
-                <td class="td-body">2019 - 2022</td>
-                <td class="td-body">ครูประจำสาขา IT SBAC NON</td>
-            </tr>
-            <tr>
-                <td class="td-body">2023 - present</td>
-                <td class="td-body">present Gosoft</td>
-            </tr>
-        
-    </table>
-   
+    <br>
+    <div class="quiz-container">
+        <h1></h1>
+        <p id="question">จากภาพตัวใหนเป็นเค้าแมว</p>
+        <img src="cat.jpg" alt="" width="250px" height="250px">
+        <br/>
+        <button class="button" onclick="checkAnswer2('a')">A) ตัวสีดำ</button>
+        <button class="button" onclick="checkAnswer2('b')">B) ตัวสีเทา</button>
+        <button class="button" onclick="checkAnswer2('c')">C) ทั้ง 2 ตัว</button>
+        <button class="button" onclick="checkAnswer2('d')">D) ไม่มีข้อถูก</button>
+        <p id="results"></p>
+    </div>
+    <script src="index.js" charset="uf-8"> </script>
 </body>
 </html>
