@@ -12,10 +12,10 @@ function checkAnswer(answer) {
  function checkAnswer2(answer) {
     const result = document.getElementById('results');
     if (answer === 'c') {
-        result.textContent = "correct";
+        result.textContent = "ถูกต้องจ้า เค้าเเมวเหมือนกัน";
         result.style.color = 'green';
     } else {
-        result.textContent = "incorrect";
+        result.textContent = "ไม่จ้า นู้นก็เค้าแมว";
         result.style.color = 'red';
     }
  }
